@@ -1,0 +1,31 @@
+.Drass{
+    margin: 100px auto;
+    width: 100%;
+    height: 700 px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(drass.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Drass h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    
+}
+
+ .Drass1{
+
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.Drass1 p{
+    text-align: justify;
+}

@@ -1,0 +1,71 @@
+.awardee{
+    margin: 100px auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(awardee2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.awardee h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    
+}
+
+
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 100px;
+
+}
+
+.card{
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color:#666;
+}
+
+.card-button{
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
